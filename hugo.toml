@@ -104,11 +104,15 @@ disqusShortname = ''
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/abinmn"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://pkm.social/@abinmn"
 
 [[params.socialIcons]]
 name = "twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/abinmn"
 
 [[params.socialIcons]]
 name = "Rss"
