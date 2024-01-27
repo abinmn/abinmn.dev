@@ -33,7 +33,7 @@ Though the pod started, it exited with an error that hardware acceleration is re
 
 The [--device](https://docs.docker.com/engine/reference/commandline/run/#device) flag exposes a device in the host to the docker container.  In this case, the container needs access to the `/dev/kvm` device. So what is this KVM that's preventing the emulator pods from coming up?
 
-KVM or [Kernel Virtual Machine](https://www.youtube.com/watch?v=BgZHbCDFODk) is a VM management tool that helps in creating Virtual Machines on Linux. Android Emulators are based on [QEMU](https://www.qemu.org/docs/master/about/index.html, an open-source machine emulator, which in turn utilizes the KVM infrastructure for virtualisation. To create an emulator, access to a host's KVM infrastructure is necessary.
+KVM or [Kernel Virtual Machine](https://www.youtube.com/watch?v=BgZHbCDFODk) is a VM management tool that helps in creating Virtual Machines on Linux. Android Emulators are based on [QEMU](https://www.qemu.org/docs/master/about/index.html), an open-source machine emulator, which in turn utilizes the KVM infrastructure for virtualisation. To create an emulator, access to a host's KVM infrastructure is necessary.
 
 Unfortunately, the current Kubernetes setup (Azure Kubernetes Service in this case) didn't have access to a KVM environment and using k8s was out of the question.
 
