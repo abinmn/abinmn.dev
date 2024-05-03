@@ -1,6 +1,6 @@
 ---
 title: Setting up Android Emulator Containers in Virtual Machine
-date: 2024-01-27
+date: 2024-04-06
 description: Setup table of content in Hugo blog awesome theme
 ---
 
