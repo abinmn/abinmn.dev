@@ -1,4 +1,1 @@
 .hugo_build.lock
-# Ignore hugo's build
-public/*
-resources/*
