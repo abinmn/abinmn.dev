@@ -57,6 +57,11 @@ disqusShortname = ''
     name = 'About'
     url = '/about/'
     weight = 30
+  [[Languages.en-gb.menu.main]]
+    pageRef="today-i-learned"
+    name = 'TIL'
+    url = '/today-i-learned/'
+    weight = 25
 
 [Languages.en-gb.params]
   sitename = "abinmn.dev"
