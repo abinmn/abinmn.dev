@@ -53,6 +53,10 @@ disqusShortname = ''
     url = '/posts/'
     weight = 20
   [[Languages.en-gb.menu.main]]
+    name = 'Tools'
+    url = 'https://tools.abinmn.dev'
+    weight = 22
+  [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
